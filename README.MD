@@ -17,14 +17,14 @@ This script checks JPEG files for structural errors, decoding issues, and compar
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository: `git clone https://github.com/Benjamin-Wegener/jpeg-checker.git`
 2. Install the required dependencies:
 
 pip install pillow
 
 ## Usage
 
-python check_jpeg.py [filenames] [--no-parallel] [--verbose]
+python jpeg_checker.py [filenames] [--no-parallel] [--verbose]
 filenames: List of JPEG files to check.
 --no-parallel: Disable parallel processing.
 --verbose: Enable verbose logging.
